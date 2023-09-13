@@ -1,0 +1,15 @@
+dogs
+Terrier               11958
+Labrador Retriever    10682
+Samoyed                9885
+Spaniel                9787
+Decorative             4674
+Shepherd               4094
+Boxer                  2050
+Beagle                 1539
+Hound                   977
+Herding                 917
+Dachshund               853
+Great Dane              334
+Shar-Pei                249
+Akita                   181
