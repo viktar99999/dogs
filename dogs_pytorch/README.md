@@ -46,3 +46,5 @@ target = dogs
 Models:
 lr.pth
 lr_1.pth
+File:
+dog_breeds.txt
