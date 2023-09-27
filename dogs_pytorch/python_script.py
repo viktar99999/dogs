@@ -30,7 +30,8 @@ scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 scaler = MinMaxScaler()
-regressor = RandomForestRegressor(n_estimators=20, random_state=42)
+regressor = RandomForestRegressor(n_estimators=100,
+    criterion='poisson', max_depth=14, max_features=9, random_state=40)
 regressor.fit(X_train, y_train)
 y_pred = regressor.predict(X_test)
 r2(y_test, y_pred)
@@ -185,7 +186,7 @@ def train_1(model_lr_1, loss_fn, optimizer):
             loss_3 = loss.item(), BATCH_SIZE_LR * len(X)
             print(f'loss: {loss_3}')
 def test_1(model_lr_1, loss_fn):
-    """function test"""
+    """function_1 test_1"""
     size = len(X_train_tensor)
     num_batches = size
     model_lr_1.eval()
