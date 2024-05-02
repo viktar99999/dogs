@@ -21,10 +21,14 @@ Python3 --version
 Check version pip:
 pip3 --version
 Others.
-Install:
+Command for install pip dependencies:
+pip3 install -r requirements.txt
+Command for install pip libs:
 pip3 install numpy
 pip3 install pandas
-pip3 install sklearn
+pip3 install sklearn dipricated
+# https://github.com/scikit-learn/scikit-learn/issues/8215
+pip3 install scikit-learn
 pip3 install tqdm
 pip3 install torch
 Check install python-libs:
