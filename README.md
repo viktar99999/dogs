@@ -8,7 +8,7 @@ Programming environment - Python3.9.5.2
 Programming environment - Python3.10.12
 Programming environment - Python3.11.0-rc1
 Development tool -Docker24.0.5
-Development tool - Docker Compouse24.0.5
+Development tool - Docker Compose24.0.5
 Install:
 Command for install Python:
 sudo apt install python3.8
@@ -19,9 +19,9 @@ Check version Python:
 Python3 --version
 Command for install Docker:
 sudo apt install docker.io
-Command for install Docker-Compouse:
-sudo apt install docker-compouse
+Command for install Docker-Compose:
+sudo apt install docker-compose
 Check version Docker:
 docker --version
-Check version Docker:
-docker compouse --version
+Check version Docker Compose:
+docker compose --version
