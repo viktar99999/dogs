@@ -116,5 +116,6 @@ Docker image:
 docker pull viktar99999/ubuntu-python310:2.0
 docker run -it viktar99999/ubuntu-python310:2.0
 exit
+# Command for close container.
 docker rm container_id
 docker rmi viktar99999/ubuntu-python310:2.0
