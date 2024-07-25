@@ -1,5 +1,5 @@
 # dogs
-In the neroset_model will be using dockerfile.
+In the neroset_model will be using dockerfile and docker-compose.yml.
 Base:
 System - Ubuntu20.04.06lts
 System - Ubuntu22.04.04lts
@@ -8,8 +8,8 @@ Programming environment - Python3.9.5.2
 Programming environment - Python3.10.12
 Programming environment - Python3.11.0-rc1
 Python dependencies from requirements.txt
-Development tool -Docker24.0.5
-Development tool - Docker Compose24.0.5
+Development tool -Docker24.0.7
+Development tool - Docker Compose1.29.2
 Install:
 Command for install Python:
 sudo apt install python3.8
@@ -119,3 +119,10 @@ exit
 # Command for close container.
 docker rm container_id
 docker rmi viktar99999/ubuntu-python310:2.0
+Docker-compose image:
+docker-compose pull viktar99999/dogs_pytorch_model-ubuntu-python310:1.0
+# start docker image two commands: up or run.
+docker-compose up
+docker-compose run dogs_pytorch_model
+docker-compose rm dogs_pytorch_model
+docker-compose down viktar99999/dogs_pytorch_model-ubuntu-python310:1.0
