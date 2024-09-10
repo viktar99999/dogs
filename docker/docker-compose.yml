@@ -1,8 +1,7 @@
-    version: '2.3'
-    services:
-      dogs_pytorch_model:
-       image: viktar99999/dogs_pytorch_model-ubuntu-python310:1.0
-       container_name: dogs_pytorch_model
-       build:
-        context: .
-        dockerfile: dockerfile
+services:
+  dogs_pytorch_model:
+    image: viktar99999/dogs_pytorch_model-ubuntu-python310:1.0
+    container_name: dogs_pytorch_model
+    build:
+      context: .
+      dockerfile: dockerfile
