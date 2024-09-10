@@ -126,3 +126,4 @@ docker-compose up
 docker-compose run dogs_pytorch_model
 docker-compose rm dogs_pytorch_model
 docker-compose down viktar99999/dogs_pytorch_model-ubuntu-python310:1.0
+# Section version in docker-compose.yml vill be deprecated.
