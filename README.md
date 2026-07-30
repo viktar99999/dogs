@@ -4,7 +4,6 @@ Base:
 System - Ubuntu22.04.05lts
 System - Ubuntu24.04.01lts
 System - Ubuntu:26.04.01lts
-Programming environment - Python3.8.10.2.12
 Programming environment - Python3.9.5.3
 Programming environment - Python3.10.12.2
 Programming environment - Python3.11.0-rc2
