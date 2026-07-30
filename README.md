@@ -1,7 +1,6 @@
 # dogs
 In the reposetory will be different dog breeds.
 Base:
-System - Ubuntu20.04.06lts
 System - Ubuntu22.04.05lts
 System - Ubuntu24.04.01lts
 Programming environment - Python3.8.10.2.12
